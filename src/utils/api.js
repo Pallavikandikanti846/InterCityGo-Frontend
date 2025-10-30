@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:8888/api";
+const API_BASE_URL = "https://intercitygo-1.onrender.com/api";
 
 const getAuthHeader = () => {
   const token = localStorage.getItem("token");

@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http://localhost:8888",
+        target: "https://intercitygo-1.onrender.com/api",
         changeOrigin: true,
       },
     },
